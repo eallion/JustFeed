@@ -90,7 +90,7 @@ class JustFeed_Widget extends Widget_Archive
 					$this->author->screenName,
 					$this->author->url,
 					$comments->permalink,
-					$d['year'].'/'.$d['mon'].'/'.$date['mday'],
+					$d['year'].'/'.$d['mon'].'/'.$d['mday'],
 					$d['hours'].':'.$d['minutes'].':'.$d['seconds'],
 					$this->commentsNum
 				);
@@ -138,7 +138,7 @@ class JustFeed_Widget extends Widget_Archive
 					$this->author->screenName,
 					$this->author->url,
 					$this->permalink,
-					$d['year'].'/'.$d['mon'].'/'.$date['mday'],
+					$d['year'].'/'.$d['mon'].'/'.$d['mday'],
 					$d['hours'].':'.$d['minutes'].':'.$d['seconds'],
 					$this->commentsNum
 				);
